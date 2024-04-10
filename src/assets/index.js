@@ -25,10 +25,12 @@ import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
+import zebra from "./company/zebra.png";
+import polyloop from "./company/polyloop.png";
 
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
+import jeopoly from "./jeopoly.png";
+import autorobot from "./autorobot.png";
+import limo from "./limo.png";
 
 export {
   logo,
@@ -56,7 +58,9 @@ export {
   shopify,
   starbucks,
   tesla,
-  carrent,
-  jobit,
-  tripguide,
+  zebra,
+  polyloop,
+  jeopoly,
+  autorobot,
+  limo,
 };

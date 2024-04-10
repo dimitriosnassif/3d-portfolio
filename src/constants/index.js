@@ -15,13 +15,11 @@ import {
     git,
     figma,
     docker,
-    meta,
-    starbucks,
-    tesla,
-    shopify,
-    carrent,
-    jobit,
-    tripguide,
+    polyloop,
+    zebra,
+    autorobot,
+    jeopoly,
+    limo,
     threejs,
 } from "../assets";
 
@@ -116,55 +114,29 @@ const technologies = [
 
 const experiences = [
 {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
+    title: "Embedded Systems Member",
+    company_name: "Polyloop",
+    icon: polyloop,
     iconBg: "#383E56",
-    date: "March 2020 - April 2021",
-    points: [
-    "Developing and maintaining web applications using React.js and other related technologies.",
-    "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-    "Implementing responsive design and ensuring cross-browser compatibility.",
-    "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-},
-{
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
-    iconBg: "#E6DEDD",
     date: "Jan 2021 - Feb 2022",
     points: [
-    "Developing and maintaining web applications using React.js and other related technologies.",
-    "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-    "Implementing responsive design and ensuring cross-browser compatibility.",
-    "Participating in code reviews and providing constructive feedback to other developers.",
+    "Collaborated with a team of more than 10 people while establishing an effective communication system.",
+    "Contributed to the construction of a high-speed mass transport system based on magnetic levitation – Hyperloop.",
+    "Designed a database in PostgreSQL to represent the different data analysis of sensors collaborating with Git.",
+    "Animated an interactive web application using Angular to visualize the different data in 3D and improve their efficiency.",
+    "Implemented a Raspberry Pi module to monitor and log frequency converter data for Hyperloop systems analysis.",
     ],
 },
 {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
-    iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
-    points: [
-    "Developing and maintaining web applications using React.js and other related technologies.",
-    "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-    "Implementing responsive design and ensuring cross-browser compatibility.",
-    "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-},
-{
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
+    title: "Software Engineering Intern",
+    company_name: "Zebra Technologies",
+    icon: zebra,
     iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
+    date: "May 2024 - Present",
     points: [
-    "Developing and maintaining web applications using React.js and other related technologies.",
-    "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-    "Implementing responsive design and ensuring cross-browser compatibility.",
-    "Participating in code reviews and providing constructive feedback to other developers.",
+    "Developing and testing software using C++, focusing on tools that accelerate team development and improve operational efficiency.",
+    "Conducting diagnostic tests and bench testing for electronic systems, identifying and rectifying bugs to enhance code functionality and reliability.",
+    "Enhanced planning, organizational, and time management skills through hands-on project work, meeting tight deadlines in a dynamic business setting.",
     ],
 },
 ];
@@ -198,66 +170,66 @@ const testimonials = [
 
 const projects = [
     {
-        name: "Car Rent",
+        name: "Autonomous Robot",
         description:
         "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
         tags: [
         {
-            name: "react",
+            name: "c++",
             color: "blue-text-gradient",
         },
         {
-            name: "mongodb",
+            name: "embedded",
             color: "green-text-gradient",
         },
         {
-            name: "tailwind",
+            name: "linux",
             color: "pink-text-gradient",
         },
         ],
-        image: carrent,
-        source_code_link: "https://github.com/",
+        image: autorobot,
+        source_code_link: "https://github.com/dimitriosnassif/Embedded-Systems-Project---Autonomous-Robot?tab=readme-ov-file",
     },
     {
-        name: "Job IT",
+        name: "JeoPoly",
         description:
         "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
         tags: [
         {
-            name: "react",
+            name: "angular",
             color: "blue-text-gradient",
         },
         {
-            name: "restapi",
+            name: "nestjs",
             color: "green-text-gradient",
         },
         {
-            name: "scss",
+            name: "aws",
             color: "pink-text-gradient",
         },
         ],
-        image: jobit,
+        image: jeopoly,
         source_code_link: "https://github.com/",
     },
     {
-        name: "Trip Guide",
+        name: "LimoPilot",
         description:
         "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
         tags: [
         {
-            name: "nextjs",
+            name: "ros2",
             color: "blue-text-gradient",
         },
         {
-            name: "supabase",
+            name: "gazebo",
             color: "green-text-gradient",
         },
         {
-            name: "css",
+            name: "docker",
             color: "pink-text-gradient",
         },
         ],
-        image: tripguide,
+        image: limo,
         source_code_link: "https://github.com/",
     },
 ];
