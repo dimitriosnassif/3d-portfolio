@@ -120,11 +120,10 @@ const experiences = [
     iconBg: "#383E56",
     date: "Jan 2021 - Feb 2022",
     points: [
-    "Collaborated with a team of more than 10 people while establishing an effective communication system.",
-    "Contributed to the construction of a high-speed mass transport system based on magnetic levitation – Hyperloop.",
-    "Designed a database in PostgreSQL to represent the different data analysis of sensors collaborating with Git.",
-    "Animated an interactive web application using Angular to visualize the different data in 3D and improve their efficiency.",
-    "Implemented a Raspberry Pi module to monitor and log frequency converter data for Hyperloop systems analysis.",
+    "Collaborated with a team of over 20+ like-minded students to construct a small-scale Hyperloop transportation system based on magnetic levitation.",
+    "Designed and integrated a Raspberry Pi module for real-time sensor monitoring and data analytics using Python, with continuous data transmission to a Kafka cluster.",
+    "Developed a Node.js/Express backend leveraging WebSockets for real-time transmission and display of sensor data, supporting seamless updates for live monitoring.",
+    "Centralized various sensor data within a user-friendly Angular interface, utilized by over 15+ users, ensuring seamless integration.",
     ],
 },
 {
@@ -134,9 +133,10 @@ const experiences = [
     iconBg: "#E6DEDD",
     date: "May 2024 - Present",
     points: [
-    "Developing and testing software using C++, focusing on tools that accelerate team development and improve operational efficiency.",
-    "Conducting diagnostic tests and bench testing for electronic systems, identifying and rectifying bugs to enhance code functionality and reliability.",
-    "Enhanced planning, organizational, and time management skills through hands-on project work, meeting tight deadlines in a dynamic business setting.",
+    "Collaborated with T&D (Test & Diagnostics) developers using Jira and Confluence to document and improve test methodologies, aiding in the technology transfer to an overseas production site.",
+    "Developed a PowerShell script to streamline the creation of bootable USB keys for machine vision product testing, reducing process time by 36%",
+    "Engineered a Python code to automate package downloads for releases, migrating from a local server to Artifactory, used by 10+ developers when releasing code, hence eliminating server dependency",
+    "Integrated a Python utility into the team’s testing suite, converting 1000+ Splunk generated logs into human-readable formats within seconds, reducing log processing time by 80% for production staff."
     ],
 },
 ];
